@@ -1,0 +1,28 @@
+h1{
+    color:blue
+}
+p{
+    color:gold
+}
+.first{
+    font-weight: 400;
+}
+.third{
+    font-weight: 700;
+}
+#second{
+    font-size: large;
+    color: rgb(7, 150, 83);
+}
+div{
+    background-color: cyan;
+    font-weight: 900;
+}
+.selector{
+    background-color: rgb(220, 153, 251);
+    font-weight: 600;
+}
+#priority{
+    background-color: rgb(255, 157, 0);
+    font-weight: 200;
+}

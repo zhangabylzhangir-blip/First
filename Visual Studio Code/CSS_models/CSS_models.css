@@ -1,0 +1,20 @@
+h1{
+    font-size: 48px
+}
+.container{
+    font-size: 2.5em
+}
+.box{
+    background-color: gold;
+    width: 5rem;
+}
+.agree{
+    background-color: rgb(0, 255, 255);
+    font-weight: 30%;
+}
+.beginning{
+    color: #41ccf3; ;
+}
+.bye{
+    background-color: rgba(155,45,255, 0.6);
+}

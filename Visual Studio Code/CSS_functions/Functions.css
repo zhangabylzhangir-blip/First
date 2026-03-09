@@ -1,0 +1,33 @@
+h1{
+    color:blue
+}
+p{
+    font-size: xx-large ;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-weight: 800;
+}
+.App{
+    background-color: gold;
+}
+.App2{
+    background-image: url(sh-unsplash_5qt09yibrok-4096x2731.jpg);
+}
+.Html{
+    padding: 1%;
+}
+.Css{
+    margin: 1%;
+}
+.JavaScript{
+    border: 1px solid yellow;
+}
+.over{
+    width: 80px ;
+    height: 80px;
+    background-color: blue;
+    overflow: scroll;
+}
