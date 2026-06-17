@@ -101,3 +101,27 @@
     height: 120px ;
     background-color: rgb(68, 186, 163);
 }
+.container6 {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.child10 {
+    width: 111px ;
+    height: 120px ;
+    background-color: rgb(0, 255, 204);
+    flex-grow: 0.5;
+}
+.child11 {
+    width: 111px ;
+    height: 120px ;
+    background-color: rgb(0, 255, 255);
+    flex-shrink: 0.9;
+}
+.child12 {
+    width: 111px ;
+    height: 120px ;
+    background-color: rgb(0, 174, 255);
+    flex-basis: 100px;
+}
