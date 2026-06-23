@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    background-color: #EEEEEE;
+}
+
+.HeroSection {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 248px;
+    background-color: #2A2A2A;
+    border: 1px #5D3F3B solid;
+    border-radius: 12px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.avatar {
+    transform: rotate(10deg);
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.text1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+    color: #E5E2E1;
+}
+
+.text2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E7BDB7;
+    max-width: 650px;
+}
+
+.badge-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.box1, .box2 {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px #5D3F3B solid;
+    background-color: #201F1F;
+    padding: 8px 16px;
+    gap: 8px;
+}
+
+.text3, .text4 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E5E2E1;
+    white-space: nowrap;
+}
+
+.cards-grid {
+    display: flex;
+    gap: 24px;
+    width: 1200px;
+    align-items: flex-start;
+}
+
+.GameCard {
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    height: 223px;
+    background-color: #000000;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.GameImage1 {
+    width: 100%;
+    height: 144px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.BloxFruits {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E5E2E1;
+    margin-top: 8px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.PercentageCount {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #A39E9C;
+}
+
+.Card1 {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 363px;
+    background-color: #201F1F;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px #5D3F3B solid;  
+}
+
+.CityLife {
+    width: 100%;
+    height: 268px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.GrayUnderPictureContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.CityLife2 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #E5E2E1;
+}
+
+.card-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.rating-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.PercentageCount2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #A39E9C;
+}
+
+.ActivePlayers {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #A39E9C;
+}
